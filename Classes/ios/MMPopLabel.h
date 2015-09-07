@@ -38,6 +38,7 @@ typedef NS_OPTIONS(NSUInteger, MMPopLabelAnimationOptions) {
 + (MMPopLabel *)popLabelWithText:(NSString *)text options:(MMPopLabelAnimationOptions)options;
 - (void)addButton:(UIButton *)button;
 - (void)popAtView:(UIView *)view;
+- (void)popAtFrame:(CGRect)rect;
 - (void)popAtBarButtonItem:(UIBarButtonItem *)barButtonItem;
 - (void)dismiss;
 
